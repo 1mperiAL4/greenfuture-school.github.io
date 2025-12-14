@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GreenFuture — Экологический климат-контроль для школ</title>
+  <meta name="description" content="Пилотный проект внедрения интеллектуальной системы климат-контроля в 3 школах Москвы. Снижение CO₂, энергосбережение, здоровье детей.">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌱</text></svg>">
+</head>
+<body>
+  <!-- Шапка -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="greenfuture-logo.svg" alt="GreenFuture" width="180">
+      </div>
+      <nav class="nav">
+        <a href="#about">О проекте</a>
+        <a href="#pilot">Пилот</a>
+        <a href="#tech">Технологии</a>
+        <a href="#monitoring">Мониторинг</a>
+        <a href="#training">Обучение</a>
+        <a href="#impact">Эффекты</a>
+        <a href="#contact" class="btn">Подключить школу</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Герой -->
+  <section class="hero">
+    <div class="container">
+      <h1>Экологический климат-контроль для школ</h1>
+      <p class="subtitle">Интеллектуальная система мониторинга CO₂, температуры и влажности с автоматическим управлением вентиляцией. Пилот — 3 школы Москвы, 30 классов.</p>
+      <div class="stats">
+        <div><span>CO₂</span> < 800 ppm</div>
+        <div><span>Экономия</span> до 30%</div>
+        <div><span>Окупаемость</span> 1 год</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- О проекте -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>О проекте</h2>
+      <p>Проект направлен на создание здоровой, энергоэффективной и «умной» образовательной среды. В школах часто нарушаются параметры микроклимата: уровень CO₂ превышает 1500 ppm, влажность — вне нормы, что снижает концентрацию и повышает заболеваемость.</p>
+      <p>GreenFuture решает эти проблемы через автоматизированную систему, сочетающую датчики, приточно-вытяжные установки и облачную аналитику.</p>
+    </div>
+  </section>
+
+  <!-- Пилот -->
+  <section id="pilot" class="section bg-card">
+    <div class="container">
+      <h2>Пилотный проект</h2>
+      <div class="pilot-grid">
+        <div class="card">
+          <h3>📍 Москва, 2025</h3>
+          <p>3 школы, 30 учебных классов</p>
+        </div>
+        <div class="card">
+          <h3>💰 Бюджет</h3>
+          <p>~12,0 млн ₽ (30 комплектов)</p>
+        </div>
+        <div class="card">
+          <h3>⚙️ Комплект на класс</h3>
+          <p>ПВУ 300 м³/ч, датчики CO₂/T/RH, контроллер, монтаж, обучение</p>
+        </div>
+        <div class="card">
+          <h3>📊 Цель</h3>
+          <p>CO₂ < 800 ppm, экономия ≥20%, снижение заболеваемости</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Технологии -->
+  <section id="tech" class="section">
+    <div class="container">
+      <h2>Технологическое решение</h2>
+      <div class="tech-list">
+        <div class="tech-item">
+          <div class="icon">🌬️</div>
+          <div>
+            <h3>Приточно-вытяжная установка</h3>
+            <p>300 м³/ч, рекуперация тепла, EC-вентиляторы, фильтрация F7/G4</p>
+          </div>
+        </div>
+        <div class="tech-item">
+          <div class="icon">📡</div>
+          <div>
+            <h3>Датчики качества воздуха</h3>
+            <p>CO₂, температура, влажность — с цифровым интерфейсом Modbus</p>
+          </div>
+        </div>
+        <div class="tech-item">
+          <div class="icon">🧠</div>
+          <div>
+            <h3>Интеллектуальный контроллер</h3>
+            <p>Автоматическое управление по расписанию и уровню CO₂</p>
+          </div>
+        </div>
+        <div class="tech-item">
+          <div class="icon">☁️</div>
+          <div>
+            <h3>Облачная платформа</h3>
+            <p>Мониторинг в реальном времени, отчёты, доступ для учителей и школьников</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Мониторинг -->
+  <section id="monitoring" class="section bg-card">
+    <div class="container">
+      <h2>Экологический мониторинг и аудит</h2>
+      <p>Система включает не только технику, но и образовательную программу: школьники участвуют в сборе данных, анализе и принятии решений. Это формирует экологическое сознание и гражданскую ответственность.</p>
+      <ul class="features">
+        <li>📊 Картирование микроклимата по школе</li>
+        <li>🎓 Вовлечение учащихся в исследовательскую деятельность</li>
+        <li>🔍 Регулярный аудит параметров воздуха</li>
+        <li>📈 Прогнозирование тенденций на основе данных</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Обучение -->
+  <section id="training" class="section">
+    <div class="container">
+      <h2>Обучение персонала</h2>
+      <p>Перед запуском системы проводится обучение технического персонала и педагогов:</p>
+      <ul class="features">
+        <li>Обучение работе с устройством и интерфейсом</li>
+        <li>Работа с диагностическим оборудованием</li>
+        <li>Интерпретация данных с датчиков</li>
+        <li>Практические навыки обслуживания ПВУ</li>
+      </ul>
+      <p>Обучение проводится партнёрскими центрами с выдачей удостоверений установленного образца.</p>
+    </div>
+  </section>
+
+  <!-- Социально-экономические эффекты -->
+  <section id="impact" class="section bg-card">
+    <div class="container">
+      <h2>Социально-экономические эффекты</h2>
+      <div class="impact-grid">
+        <div class="impact-card">
+          <h3>🌿 Здоровье</h3>
+          <p>Снижение респираторных заболеваний и аллергий у учащихся</p>
+        </div>
+        <div class="impact-card">
+          <h3>📈 Успеваемость</h3>
+          <p>Повышение концентрации и мотивации к обучению</p>
+        </div>
+        <div class="impact-card">
+          <h3>💰 Экономия</h3>
+          <p>Снижение затрат на энергию и медицинское обслуживание</p>
+        </div>
+        <div class="impact-card">
+          <h3>🌍 Экология</h3>
+          <p>Формирование устойчивого экологического мышления</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Хотите подключить свою школу к пилоту?</h2>
+      <p>Мы ищем школы для участия в пилоте или готовы предложить коммерческое решение с ESCO-моделью (оплата из экономии).</p>
+      <div class="contact-info">
+        <p>📧 <strong>Green-FutureCo@outlook.com</strong></p>
+        <p>📍 Москва, 2025 г.</p>
+        <p>💡 Проект реализуется при поддержке департамента образования г. Москвы</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 GreenFuture. Все права защищены.</p>
+      <p>Проект на тему: «Внедрение экологического устройства климат-контроля в школы для устойчивого развития микроклимата»</p>
+    </div>
+  </footer>
+
+  <!-- Всплывающее окно -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Заявка на подключение школы</h3>
+      <form id="contactForm">
+        <label for="name">Ваше ФИО *</label>
+        <input type="text" id="name" required>
+
+        <label for="school">Название школы *</label>
+        <input type="text" id="school" required>
+
+        <label for="position">Должность *</label>
+        <input type="text" id="position" required>
+
+        <label for="email">Email *</label>
+        <input type="email" id="email" required>
+
+        <button type="submit" class="btn">Отправить заявку</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Скрипт для модального окна -->
+  <script>
+    // Получаем элементы
+    const modal = document.getElementById("modal");
+    const btn = document.querySelector(".btn");
+    const span = document.getElementsByClassName("close")[0];
+
+    // Открываем окно при клике на кнопку
+    btn.onclick = function() {
+      modal.style.display = "flex";
+    }
+
+    // Закрываем окно при клике на "x"
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // Закрываем окно при клике вне его
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+    // Обработка формы
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const name = document.getElementById('name').value;
+      const school = document.getElementById('school').value;
+      const position = document.getElementById('position').value;
+      const email = document.getElementById('email').value;
+
+      // Создаем ссылку для отправки письма
+      const mailtoLink = `mailto:Green-FutureCo@outlook.com?subject=Заявка на подключение школы&body=
+        Имя: ${encodeURIComponent(name)}%0D%0A
+        Школа: ${encodeURIComponent(school)}%0D%0A
+        Должность: ${encodeURIComponent(position)}%0D%0A
+        Email: ${encodeURIComponent(email)}%0D%0A
+        %0D%0A
+        С уважением,`;
+
+      window.location.href = mailtoLink;
+
+      // Закрываем окно после отправки
+      modal.style.display = "none";
+
+      // Опционально: показать сообщение об успехе
+      alert('Заявка отправлена! Мы свяжемся с вами в ближайшее время.');
+    });
+  </script>
+</body>
+</html>
